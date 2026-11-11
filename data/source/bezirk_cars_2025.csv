@@ -1,0 +1,88 @@
+bezirk_no,bezirk_name,year,residents,cars,cars_ev,source
+1,"Altstadt, St. Lorenz",2025,5019,3707,1124,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/01-altstadt-st-lorenz.pdf
+2,Marienvorstadt,2025,1736,1149,84,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/02-marienvorstadt.pdf
+3,Tafelhof,2025,1385,1240,167,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/03-tafelhof.pdf
+4,Gostenhof,2025,9132,2786,297,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/04-gostenhof.pdf
+5,Himpfelshof,2025,5833,3613,272,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/05-himpfelshof.pdf
+6,"Altstadt, St. Sebald",2025,9188,3199,152,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/06-altstadt-st-sebald.pdf
+7,St Johannis,2025,8055,3126,144,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/07-st-johannis.pdf
+8,Pirckheimer Straße,2025,8006,2825,79,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/08-pirckheimer-strasse.pdf
+9,Wöhrd,2025,10208,3948,214,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/09-wohrd.pdf
+10,Ludwigsfeld,2025,11947,3860,68,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/10-ludwigsfeld.pdf
+11,Glockenhof,2025,18863,5308,90,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/11-glockenhof.pdf
+12,Guntherstraße,2025,3747,1654,63,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/12-guntherstrasse.pdf
+13,Galgenhof,2025,20213,5399,77,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/13-galgenhof.pdf
+14,Hummelstein,2025,11288,3709,83,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/14-hummelstein.pdf
+15,Gugelstraße,2025,8135,2390,72,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/15-gugelstrasse.pdf
+16,Steinbühl,2025,13585,3551,41,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/16-steinbuhl.pdf
+17,Gibitzenhof,2025,5662,1613,25,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/17-gibitzenhof.pdf
+18,Sandreuth,2025,402,383,24,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/18-sandreuth.pdf
+19,Schweinau,2025,5061,1877,51,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/19-schweinau.pdf
+20,St. Leonhard,2025,14948,4667,90,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/20-st-leonhard.pdf
+21,Sündersbühl,2025,7397,2361,44,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/21-sundersbuhl.pdf
+22,Bärenschanze,2025,9516,2640,56,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/22-barenschanze.pdf
+23,Sandberg,2025,10767,3638,75,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/23-sandberg.pdf
+24,Bielingplatz,2025,5439,2175,77,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/24-bielingplatz.pdf
+25,Uhlandstraße,2025,11945,3956,98,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/25-uhlandstrasse.pdf
+26,Maxfeld,2025,10731,4045,140,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/26-maxfeld.pdf
+27,Veilhof,2025,12017,3912,90,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/27-veilhof.pdf
+28,Tullnau,2025,4115,2104,116,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/28-tullnau.pdf
+29,Gleißhammer,2025,6127,2775,60,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/29-gleisshammer.pdf
+30,Dutzendteich,2025,1063,549,49,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/30-dutzendteich.pdf
+31,Rangierbahnhof Siedlung,2025,4381,1646,29,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/31-rangierbahnhof-siedlung.pdf
+32,Langwasser Nordwest,2025,7449,2883,25,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/32-langwasser-nordwest.pdf
+33,Langwasser Nordost,2025,6847,3751,217,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/33-langwasser-nordost.pdf
+34,Beuthener Straße,2025,416,453,69,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/34-beuthener-strasse.pdf
+35,Altenfurt Nord,2025,1284,971,71,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/35-altenfurt-nord.pdf
+36,Langwasser Südost,2025,10457,4307,108,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/36-langwasser-sudost.pdf
+37,Langwasser Südwest,2025,8461,3909,76,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/37-langwasser-sudwest.pdf
+38,"Altenfurt, Moorenbrunn",2025,8326,4919,191,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/38-altenfurt-moorenbrunn.pdf
+39,Gewerbepark Nürnberg-Feucht,2025,83,173,5,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/39-gewerbepark-nurnberg-feucht.pdf
+40,Hasenbuck,2025,4166,1538,8,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/40-hasenbuck.pdf
+41,Rangierbahnhof,2025,1558,253,6,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/41-rangierbahnhof.pdf
+42,Katzwanger Straße,2025,235,614,83,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/42-katzwanger-strasse.pdf
+43,Dianastraße,2025,2312,959,35,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/43-dianastrasse.pdf
+44,Trierer-Straße,2025,5167,2988,144,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/44-trierer-strasse.pdf
+45,Gartenstadt,2025,7354,3859,84,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/45-gartenstadt.pdf
+46,Werderau,2025,4592,2967,63,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/46-werderau.pdf
+47,Maiach,2025,1663,2013,106,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/47-maiach.pdf
+48,"Katzwang, Reichelsdorf-Ost, Reichelsdorfer",2025,11268,6763,241,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/48-katzwang-reichelsdorf-ost-reichelsdorfer-keller.pdf
+49,"Kornburg, Worzeldorf",2025,13357,8172,272,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/49-kornburg-worzeldorf.pdf
+50,Hohe Marter,2025,7331,3063,42,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/50-hohe-marter.pdf
+51,Röthenbach West,2025,9164,3968,71,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/51-rothenbach-west.pdf
+52,Röthenbach Ost,2025,12468,6058,106,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/52-rothenbach-ost.pdf
+53,Eibach,2025,8808,5048,181,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/53-eibach.pdf
+54,Reichelsdorf,2025,8138,3636,74,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/54-reichelsdorf.pdf
+55,"Krottenbach, Mühlhof",2025,2387,1537,66,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/55-krottenbach-muhlhof.pdf
+60,Großreuth b. Schweinau,2025,6764,3268,100,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/60-grossreuth-b.-schweinau.pdf
+61,Gebersdorf,2025,4217,3846,315,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/61-gebersdorf.pdf
+62,Gaismannshof,2025,6092,3261,99,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/62-gaismannshof.pdf
+63,Höfen,2025,3506,2542,155,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/63-hofen.pdf
+64,Eberhardshof,2025,11058,3996,201,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/64-eberhardshof.pdf
+65,Muggenhof,2025,2804,855,18,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/65-muggenhof.pdf
+70,Westfriedhof,2025,3458,1832,43,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/70-westfriedhof.pdf
+71,Schniegling,2025,4016,2214,92,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/71-schniegling.pdf
+72,Wetzendorf,2025,8982,6419,450,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/72-wetzendorf.pdf
+73,Buch,2025,1999,1421,83,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/73-buch.pdf
+74,Thon,2025,5577,3517,185,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/74-thon.pdf
+75,Almoshof,2025,1181,687,33,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/75-almoshof.pdf
+76,Kraftshof,2025,862,527,19,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/76-kraftshof.pdf
+77,Neunhof,2025,1642,1085,55,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/77-neunhof.pdf
+78,Boxdorf,2025,2880,1922,91,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/78-boxdorf.pdf
+79,Großgründlach,2025,4867,3204,148,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/79-grossgrundlach.pdf
+80,Schleifweg,2025,4511,1992,72,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/80-schleifweg.pdf
+81,Schoppershof,2025,8665,3186,91,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/81-schoppershof.pdf
+82,Schafhof,2025,2082,1938,170,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/82-schafhof.pdf
+83,Marienberg,2025,4331,2769,83,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/83-marienberg.pdf
+84,Ziegelstein,2025,5671,3090,119,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/84-ziegelstein.pdf
+85,Mooshof,2025,2003,1771,226,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/85-mooshof.pdf
+86,Buchenbühl,2025,2254,1478,88,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/86-buchenbuhl.pdf
+87,Flughafen,2025,4,119,21,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/87-flughafen.pdf
+90,St. Jobst,2025,10819,5259,361,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/90-st._jobst.pdf
+91,Erlenstegen,2025,4218,3245,275,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/91-erlenstegen.pdf
+92,Mögeldorf,2025,6285,3386,214,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/92-mogeldorf.pdf
+93,Schmausenbuckstraße,2025,4708,2806,128,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/93-schmausenbuckstrasse.pdf
+94,Laufamholz,2025,8467,4735,187,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/94-laufamholz.pdf
+95,Zerzabelshof,2025,8771,3958,96,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/95-zerzabelshof.pdf
+96,Fischbach,2025,5017,3175,147,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/96-fischbach.pdf
+97,Brunn,2025,1000,695,51,https://www.nuernberg.de/imperia/md/statistik/dokumente/bezirksdatenblatt/nbg/97-brunn.pdf

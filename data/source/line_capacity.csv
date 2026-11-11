@@ -1,0 +1,10 @@
+line,line_mode,capacity_per_trip,basis,sources
+U1,U-Bahn,604,"Always one G1 (128 seats / 476 standing, verified); coupling impossible with 90 m platforms",https://opendata.vag.de/dataset/a2347b5d-8214-4fa4-a68a-778ec1dc3a5d/resource/1ad80f49-1e5f-4561-a4fc-6e29a4164d57/download/20230223_fahrzeugdatenfuhrpark.pdf https://de.wikipedia.org/wiki/U-Bahn_N%C3%BCrnberg
+U2,U-Bahn,580,"Mostly two coupled DT3/DT3-F (~620), some single units (320/288); ~85% long trains assumed (inferred)",https://opendata.vag.de/dataset/a2347b5d-8214-4fa4-a68a-778ec1dc3a5d/resource/1ad80f49-1e5f-4561-a4fc-6e29a4164d57/download/20230223_fahrzeugdatenfuhrpark.pdf https://en.wikipedia.org/wiki/Nuremberg_U-Bahn
+U3,U-Bahn,580,"Same assumption as U2; DT3-family stock only",https://opendata.vag.de/dataset/a2347b5d-8214-4fa4-a68a-778ec1dc3a5d/resource/1ad80f49-1e5f-4561-a4fc-6e29a4164d57/download/20230223_fahrzeugdatenfuhrpark.pdf https://en.wikipedia.org/wiki/U3_(Nuremberg_U-Bahn)
+S1,S-Bahn,600,"BR 442 (215 seats + ~190 standing estimated), double in the peak / single off-peak",https://de.wikipedia.org/wiki/S-Bahn_N%C3%BCrnberg
+S2,S-Bahn,600,"BR 442, as S1",https://de.wikipedia.org/wiki/S-Bahn_N%C3%BCrnberg
+S3,S-Bahn,620,"BR 1440 (230 seats + ~190 standing estimated), double in the peak / single off-peak",https://de.wikipedia.org/wiki/S-Bahn_N%C3%BCrnberg
+S4,S-Bahn,620,"BR 1440, as S3",https://de.wikipedia.org/wiki/S-Bahn_N%C3%BCrnberg
+S5,S-Bahn,620,"BR 1440, hourly on weekdays; formation not verified",https://de.wikipedia.org/wiki/S-Bahn_N%C3%BCrnberg
+S6,S-Bahn,405,"BR 442, hourly; assumed mostly a single unit (inferred)",https://de.wikipedia.org/wiki/S-Bahn_N%C3%BCrnberg

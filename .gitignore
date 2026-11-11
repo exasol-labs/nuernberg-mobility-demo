@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.DS_Store
+.claude/settings.local.json
+data/*.zip
+data/*.zip.part
+# secrets: never commit keys
+secrets/*
+!secrets/README.md
+!secrets/openai_api_key.example
+.obsidian
+.claude
+temp/
+# raw downloads and the built dataset stay out of git (scripts/build_nuernberg_dataset.py)
+data/nuernberg-dataset/
+data/nuernberg-raw/
+# the presenter's local demo material: run sheet and prebuilt dashboards; attendees' agents build their own
+DEMO.md
+demo/
