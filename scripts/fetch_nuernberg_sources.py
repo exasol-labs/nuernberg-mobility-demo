@@ -127,6 +127,31 @@ def _get(url: str) -> str:
         return resp.read().decode("utf-8")
 
 
+def _counter_series(text: str) -> tuple[list, list]:
+    """The daily total series and the per-direction series of one counter page.
+
+    Older pages hold them under "chartData" and "directionGraphData". Since Nov 2026 the page puts each in its own
+    payload row instead ('4d:[{"travelMode":"bike","data":[...]}]', '4e:[{"direction":"in",...,"data":[...]}, ...]'),
+    referenced from the page tree; the first row of each kind with daily data is the one the chart shows."""
+    total, by_dir = _json_after(text, "chartData"), _json_after(text, "directionGraphData")
+    if isinstance(total, list) or isinstance(by_dir, list):
+        return total or [], by_dir or []
+    total, by_dir = [], []
+    for m in re.finditer(r'(?m)^[0-9a-f]+:(\[\{"(?:travelMode|direction)".*)$', text):
+        try:
+            rows = json.loads(m.group(1))
+        except ValueError:
+            continue
+        rows = [s for s in rows if isinstance(s, dict) and isinstance(s.get("data"), list)]
+        if not rows:
+            continue
+        if "direction" in rows[0] and not by_dir:
+            by_dir = rows
+        elif "direction" not in rows[0] and not total:
+            total = rows
+    return total, by_dir
+
+
 def fetch_counters(folder: Path) -> None:
     """Counter list and daily counts (total, in, out) per counter and year -> counters.json, counts.csv."""
     folder.mkdir(parents=True, exist_ok=True)
@@ -138,10 +163,11 @@ def fetch_counters(folder: Path) -> None:
             time.sleep(2)
             text = _rsc_text(_get(f"{ECO}/site/{site['id']}?granularity=P1D&year={year}"))
             days: dict[str, dict] = {}
-            for series in _json_after(text, "chartData") or []:
+            total, by_dir = _counter_series(text)
+            for series in total:
                 for p in series["data"]:
                     days.setdefault(p["timestamp"][:10], {})["total"] = p["traffic"]["counts"]
-            for series in _json_after(text, "directionGraphData") or []:
+            for series in by_dir:
                 for p in series["data"]:
                     days.setdefault(p["timestamp"][:10], {})[series["direction"]] = p["traffic"]["counts"]
             rows += [{"count_date": d, "site_id": site["id"], **v} for d, v in sorted(days.items())]
