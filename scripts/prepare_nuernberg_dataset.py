@@ -717,7 +717,8 @@ def counter_rows(folder: Path, index: AreaIndex, area_of: dict, weather: list[di
     stations = []
     for s in sites:
         m = re.search(r"\((RZG\d+)\)", s["name"])
-        lat, lon = s["location"]["lat"], s["location"]["lon"]
+        loc = s.get("location") or {"lat": s.get("latitude"), "lon": s.get("longitude")}  # both page formats
+        lat, lon = loc["lat"], loc["lon"]
         bez = index.lookup(lat, lon)
         note = re.sub(r"<[^>]+>", "", s.get("description") or "").strip()
         stations.append({"station": m.group(1) if m else str(s["id"]), "station_name": s["name"].split(" (")[0],
@@ -888,7 +889,10 @@ def main(argv: list[str] | None = None) -> None:
     if (counters / "counts.csv").exists():
         stations, counts = counter_rows(counters, index, area_of, weather)
         write_csv(args.out / "bike_count_stations.csv", list(stations[0].keys()), stations)
-        write_csv(args.out / "bike_counts_daily.csv", list(counts[0].keys()), counts)
+        if counts:
+            write_csv(args.out / "bike_counts_daily.csv", list(counts[0].keys()), counts)
+        else:
+            print("  skip bike_counts_daily.csv: the counter pages returned no counts")
     else:
         print("  skip bike counters: not downloaded (run scripts/build_nuernberg_dataset.py again to add them)")
     print("roadworks (SÖR)")

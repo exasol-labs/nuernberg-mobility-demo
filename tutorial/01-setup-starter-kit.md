@@ -33,8 +33,8 @@ Open <http://127.0.0.1:5100> in a browser. Your dashboards will appear there.
 ## 1.3 Get this repo
 
 ```bash
-git clone https://github.com/exasol-labs/nuernberg-mobility-planning-agents.git
-cd nuernberg-mobility-planning-agents
+git clone https://github.com/exasol-labs/nuernberg-mobility-demo.git
+cd nuernberg-mobility-demo
 ```
 All later commands run from this folder.
 

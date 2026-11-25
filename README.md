@@ -10,6 +10,15 @@ The first maps look convincing: clear colors, plausible numbers, the SQL right t
 
 You describe what you want to see and why; the agent writes the SQL and the dashboards. The only prerequisite is the **[Exasol Personal Local Starter Kit](https://github.com/exasol-labs/exasol-personal-local-starterkit)**. The data comes from public sources (VGN, the City of Nürnberg, DWD, OpenStreetMap); one script in this repo downloads it and builds the tables.
 
+## Get the repo
+
+```bash
+git clone https://github.com/exasol-labs/nuernberg-mobility-demo.git
+cd nuernberg-mobility-demo
+```
+
+Then follow the path below, starting with the starter kit in chapter 1.
+
 ## The path
 
 1. [Set up the Exasol Personal Local Starter Kit](tutorial/01-setup-starter-kit.md): database, Dash Server, your agent connected over MCP
